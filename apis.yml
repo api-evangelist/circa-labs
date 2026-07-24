@@ -1,7 +1,22 @@
 aid: circa-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/circa-labs.png
 name: Circa Labs
-description: Circa Labs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Circa Labs (Circa) was a fintech and proptech startup that operated a rental wealth platform
+  helping renters build financial assets and accelerate their wealth. Backed by Techstars, Circa has since
+  merged with Stake to continue its mission of accelerating renter wealth, and the wearecirca.com site now
+  points to the combined company. No public API, developer platform, SDKs, or developer documentation are
+  published by Circa Labs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/circa-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Proptech
+- Rentals
+- Wealth
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +41,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/circa-labs-domain-security.yml
 - type: Website
   url: https://wearecirca.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
