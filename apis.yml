@@ -44,7 +44,7 @@ tags:
 - PropTech
 - Rentals
 - Wealth
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fintech
@@ -52,6 +52,7 @@ tags_raw:
 - Rentals
 - Wealth
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
